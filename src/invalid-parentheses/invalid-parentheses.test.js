@@ -10,7 +10,4 @@ describe('numberOfInvalidParentheses', () => {
   it('returns 2 for for expression ")("', () => {
     expect(numberOfInvalidParentheses(')(')).toEqual(2)
   })
-  it('returns 2 for for expression "("', () => {
-    expect(numberOfInvalidParentheses('(')).toEqual(1)
-  })
 })
